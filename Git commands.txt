@@ -44,5 +44,5 @@ $  git add <name-of-folder>
 Hint: "git add ." To add all folders.
 $  git add .
 
-Hint: "git rm -r -- cached <name-of-folder>" To delete folder.
-$  git rm -r -- cached <name-of-folder>
+Hint: "git rm -r --cached <name-of-folder>" To delete folder.
+$  git rm -r --cached <name-of-folder>
