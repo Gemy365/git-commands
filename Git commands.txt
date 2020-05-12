@@ -1,12 +1,21 @@
-Hint: "git init" To make file start with git.
+Hint: "git init" To make file start with git.	--> Step 1  & Add Folders that want to upload it into created folder by init (Has Name of Repository)
 $ git init
 
-Hint: "git status" To know status of files tracked or untracked.
+Hint: "git status" To know status of files tracked or untracked.	--> Step 2
 $ git status
 
-Hint: "git clone" To get copy of files from <https://github.com/Omaroovee/BullCowGame.git> link into your pc.
+Hint: "git add ." To add all folders.	--> Step 3
+$  git add .
+
+Hint: "git clone" To get copy of files from <https://github.com/Omaroovee/BullCowGame.git> link into your pc.	--> Step 4
 <https://github.com/Omaroovee/BullCowGame.git> can get it from github clone link.
 $ git clone <github clone link>
+
+Hint: "git commit -m <Write your commit> " To put all tracked into staging area.	--> Step 5
+$ git commit -m "Add readme file"
+
+Hint: "git push" To push new editing files into account.	--> Step 6	Done!
+$ git push
 
 Hint: "git remote -v" To know all accounts can fetch or push from them.
 $ git remote -v
@@ -14,17 +23,11 @@ $ git remote -v
 Hint: "git remote add <"Write new remote name" clone link> " If you want to fetch or push from another account.
 $ git remote add upstream https://github.com/Omaroovee/BullCowGame.git
 
-Hint: "git commit -m <Write your commit> " To put all tracked into staging area.
-$ git commit -m "Add readme file"
-
-Hint: "git push" To push new editing files into account.
-$ git push
-
 Hint: "git pull" To pull from account.
 $ git pull "your remote name" master
 
 Hint: "git config --global user.email" Enter your email.
-$  git config --global user.email "Gemy444141@gmail.com"
+$  git config --global user.email "Gemy44141@gmail.com"
 
 Hint: "git config --global user.name" Enter your username.
 $  git config --global user.name "Mohamedgamal365"
@@ -40,9 +43,6 @@ $  git branch -l
 
 Hint: "git add <name-of-folder>" To add single folder.
 $  git add <name-of-folder>
-
-Hint: "git add ." To add all folders.
-$  git add .
 
 Hint: "git rm -r --cached <name-of-folder>" To delete folder.
 $  git rm -r --cached <name-of-folder>
